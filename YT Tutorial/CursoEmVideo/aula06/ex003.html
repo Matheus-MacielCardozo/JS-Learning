@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173); /* Comentário em CSS */
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(255, 212, 22)
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!-- Comentário em HTML -->
+    <p>Já me livrei da maldição</p>
+
+    <script>
+        var n1 = Numer.parseInt(window.prompt('Digit um número')) // Comentário em js
+        var n2 = Numer.parseInt(window.prompt('Digit outro número')) 
+        // window.prompt retorna sempre string, por isso usa Number.parseInt() para converter para Inteiro, usar Number.parseFloat para real
+        // Também pode se usar Number() para reconhecer o tipo automaticamente, para caso especifico usar os anteriores
+
+        /* Para converter de numero para string usar: 
+        String()
+        n.toString()
+        */
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+        // Uso de template String com ${} para usar variaveis entre ``
+        /*
+        s.length mostra quantos caracteres a string tem
+        s.toUpperCase() joga tudo para maiusculo
+        s.toLowerCase() joga tudo para minusculo
+        */
+    </script>
+</body>
+</html>
